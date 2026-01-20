@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Bewerken | TechGadget Admin</title>
+    <link rel="stylesheet" href="admin-style.css">
+</head>
+<body class="admin-dashboard">
+    <nav class="admin-nav">
+        <h2>TechGadget Admin</h2>
+        <a href="dashboard.html" class="btn-back">Terug naar dashboard</a>
+    </nav>
+
+    <main class="admin-main">
+        <h1>Product Toevoegen/Bewerken</h1>
+        
+        <form class="product-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="product-name">Productnaam *</label>
+                    <input type="text" id="product-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="product-price">Prijs (€) *</label>
+                    <input type="number" id="product-price" step="0.01" min="0" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="product-category">Categorie</label>
+                    <select id="product-category">
+                        <option value="smartphone">Smartphone</option>
+                        <option value="laptop">Laptop</option>
+                        <option value="accessoire">Accessoire</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="product-stock">Voorraad</label>
+                    <input type="number" id="product-stock" min="0" value="0">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="product-description">Beschrijving</label>
+                <textarea id="product-description" rows="5"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Labels</label>
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" name="labels" value="new">
+                        Nieuw
+                    </label>
+                    <label>
+                        <input type="checkbox" name="labels" value="sale">
+                        Sale
+                    </label>
+                    <label>
+                        <input type="checkbox" name="labels" value="limited">
+                        Limited Edition
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-save">Opslaan</button>
+                <button type="reset" class="btn-cancel">Annuleren</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
