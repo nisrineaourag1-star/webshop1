@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | TechGadget Admin</title>
+    <link rel="stylesheet" href="admin-style.css">
+</head>
+<body class="admin-dashboard">
+    <nav class="admin-nav">
+        <h2>TechGadget Admin</h2>
+        <a href="../index.html" class="btn-back">Naar webshop</a>
+    </nav>
+
+    <main class="admin-main">
+        <h1>Productbeheer</h1>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Zoek producten...">
+            <button>Zoeken</button>
+            <a href="product-edit.html" class="btn-add">+ Nieuw product</a>
+        </div>
+
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Productnaam</th>
+                    <th>Voorraad</th>
+                    <th>Prijs</th>
+                    <th>Acties</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Smartphone Pro X</td>
+                    <td><span class="stock-in">42 stuks</span></td>
+                    <td>€799,99</td>
+                    <td>
+                        <button class="btn-edit">Bewerken</button>
+                        <button class="btn-delete">Verwijderen</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Gaming Laptop Z</td>
+                    <td><span class="stock-in">18 stuks</span></td>
+                    <td>€1099,99</td>
+                    <td>
+                        <button class="btn-edit">Bewerken</button>
+                        <button class="btn-delete">Verwijderen</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Wireless Earbuds Pro</td>
+                    <td><span class="stock-out">0 stuks</span></td>
+                    <td>€149,99</td>
+                    <td>
+                        <button class="btn-edit">Bewerken</button>
+                        <button class="btn-delete">Verwijderen</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
