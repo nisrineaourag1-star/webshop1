@@ -25,7 +25,7 @@ h2 {
     font-size: 2rem;
     margin: 2rem 0 1.5rem;
     text-align: center;
-    color: #2c3e50;
+    color: #d692a8;
 }
 
 h3 {
@@ -41,7 +41,7 @@ h3 {
 }
 
 .main-nav {
-    background-color: #2c3e50;
+    background-color: #a1cef0;
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -82,11 +82,11 @@ h3 {
 }
 
 .nav-links a:hover {
-    color: #3498db;
+    color: #b17da1;
 }
 
 .hero {
-    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+    background: linear-gradient(135deg, #b9e1a2 0%, #c8e5c8 100%);
     color: white;
     text-align: center;
     padding: 4rem 2rem;
@@ -99,8 +99,8 @@ h3 {
 
 .btn {
     display: inline-block;
-    background-color: #e74c3c;
-    color: white;
+    background-color: #f6eb7a;
+    color: rgb(1, 0, 0);
     padding: 0.8rem 2rem;
     text-decoration: none;
     border-radius: 4px;
@@ -173,7 +173,7 @@ h3 {
 .price {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: #282221;
     margin: 0.5rem 0;
 }
 
@@ -185,7 +185,7 @@ h3 {
 
 .btn-detail {
     display: inline-block;
-    background-color: #3498db;
+    background-color: #c797a8c6;
     color: white;
     padding: 0.6rem 1.5rem;
     text-decoration: none;
@@ -197,11 +197,11 @@ h3 {
 }
 
 .btn-detail:hover {
-    background-color: #2980b9;
+    background-color: #df82d4;
 }
 
 .about-section {
-    background-color: white;
+    background-color: #d6b1d556;
     padding: 3rem;
     border-radius: 8px;
     margin-bottom: 3rem;
@@ -222,7 +222,7 @@ h3 {
 }
 
 .footer {
-    background-color: #2c3e50;
+    background-color: #abddef;
     color: white;
     padding: 3rem 0 1.5rem;
 }
@@ -251,7 +251,7 @@ h3 {
     text-align: center;
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px solid #34495e;
+    border-top: 1px solid #6f88a1;
     color: #bdc3c7;
 }
 
