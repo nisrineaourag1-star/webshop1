@@ -1,0 +1,110 @@
+ik ben Nisrine, 20 jaar en dit is mijn webshop project voor school. Ik moest een complete webshop maken met alleen HTML en CSS, zowel voor klanten als voor de beheerder.
+
+Wat ik heb gemaakt
+
+Voor klanten
+
+Homepage (index.html)
+
+Navigatiebalk met logo en menu
+Grote banner met "Shop Nu" knop
+Overzicht van 6 producten in een grid layout
+Elk product heeft een foto, naam, prijs en soms een label
+Footer met contactgegevens
+Product detail pagina (product-detail.html)
+
+Gedetailleerde informatie over een smartphone
+Specificaties zoals schermgrootte, opslag, camera
+Reviews van klanten
+"In winkelwagen" knop
+Voor de beheerder (in /admin map)
+
+Login pagina
+
+Simpel inlogformulier
+Nette, gecentreerde layout
+Dashboard
+
+Overzicht van alle producten in een tabel
+Kolommen voor ID, naam, voorraad, prijs
+Knoppen om producten te bewerken of verwijderen
+Zoekbalk om producten te vinden
+Product bewerken formulier
+
+Uitgebreid formulier met verschillende input types
+Tekstvelden, dropdowns, checkboxes, tekstarea
+Voor het toevoegen of aanpassen van producten
+Technische uitwerking
+
+HTML Structuur
+
+Ik heb semantische HTML tags gebruikt zodat de code logisch is:
+
+nav voor navigatie
+header voor de bovenkant van de pagina
+main voor de hoofdinhoud
+article voor elk product (want elk product staat op zichzelf)
+section voor thematische groepen
+footer voor de onderkant
+CSS Layout
+
+Ik heb Flexbox gebruikt voor de layout, omdat we dat in de les hebben geleerd. Het is perfect voor het product grid:
+
+display: flex om de flex container te maken
+flex-wrap: wrap zodat producten naar de volgende regel gaan als er geen ruimte is
+justify-content: center om alles te centreren
+gap: 2rem voor ruimte tussen de producten
+Responsive Design
+
+De website werkt op alle schermen. Op mobiel (scherm kleiner dan 768px):
+
+Navigatie wordt verticaal in plaats van horizontaal
+Producten nemen de volledige breedte in
+Alles past goed op het scherm
+Ik heb 768px als breakpoint gekozen omdat dat goed werkt tussen tablets en telefoons.
+
+Typografie
+
+Voor de tekst gebruik ik Google Fonts:
+
+Montserrat voor titels (ziet er modern uit)
+Open Sans voor normale tekst (makkelijk leesbaar)
+Bestandsorganisatie
+
+Ik heb alles netjes in mappen gezet:
+
+Hoofdmap voor de klantzijde
+/admin map voor de beheerderszijde
+/images map voor alle foto's
+Aparte CSS bestanden voor frontend en admin
+Uitdagingen en oplossingen
+
+1. Foto's werken niet
+
+Eerst laadden de foto's niet. Het probleem was dat de bestandsnamen niet klopten in de HTML. Na controle en correctie werkten ze wel.
+
+2. Flexbox begrijpen
+
+In het begin snapte ik niet waarom dingen niet deden wat ik wilde. Na oefenen en de documentatie lezen, begreep ik hoe flex-containers en flex-items werken.
+
+3. Responsive maken
+
+Het was lastig om te beslissen wanneer de layout moest veranderen. Na testen op verschillende schermen koos ik voor 768px.
+
+4. Git gebruiken
+
+Soms vergat ik te committen of had ik merge conflicts. Ik heb geleerd om regelmatig te committen met duidelijke berichten.
+
+Wat ik heb geleerd
+
+Hoe je een complete website bouwt met alleen HTML en CSS
+Flexbox voor moderne layouts
+Responsive design principes
+Project organisatie met mappen en bestanden
+Werken met Google Fonts en externe bronnen
+Versiebeheer met Git en GitHub
+Verdediging voorbereiding
+
+Einde documentatie.
+Nisrine.
+
